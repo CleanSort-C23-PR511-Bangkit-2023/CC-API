@@ -17,7 +17,7 @@ from decouple import config
 
 app = FastAPI()
 
-model = tf.keras.models.load_model('./model/waste_CNN_model.h5')
+model = tf.keras.models.load_model(config("H5_URL"))
 
 mycursor = mydb.cursor()
 
