@@ -14,16 +14,10 @@ from datetime import datetime
 from jwt_handler import generate_token
 from jwt_bearer import JWTBearer
 from decouple import config
-import requests
 
 app = FastAPI()
 
-url = config("H5_URL")
-response = requests.get(url)
-with open('waste_CNN_model.h5', 'wb') as file:
-    file.write(response.content)
-
-model = tf.keras.models.load_model('waste_CNN_model.h5')
+model = tf.keras.models.load_model('./model/waste_CNN_model.h5')
 
 mycursor = mydb.cursor()
 
