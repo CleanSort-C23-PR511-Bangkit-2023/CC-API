@@ -11,7 +11,7 @@
 ## About
 CleanSort APP is Smart Waste Detection and Classification App with Disposal Guidelines
 
-## Services Used in Cloud Computing
+## GCP Services Used in Cloud Computing
 * Cloud Storage
 * Cloud Run
 * Cloud Build
