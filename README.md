@@ -14,10 +14,10 @@ CleanSort APP is a smart waste detection and classification application that uti
 ## GCP Services Used in Cloud Computing
 CleanSort APP leverages various Google Cloud Platform (GCP) services to deliver its functionality efficiently. The following GCP services are used in the cloud computing infrastructure of CleanSort APP:
 * Cloud Storage
-<p>CleanSort APP utilizes Cloud Storage for storing and managing data related to waste detection and classification. The images or data captured by the app during the waste sorting process are securely stored in Cloud Storage, ensuring reliability and easy accessibility for further processing.
+<br>CleanSort APP utilizes Cloud Storage for storing and managing data related to waste detection and classification. The images or data captured by the app during the waste sorting process are securely stored in Cloud Storage, ensuring reliability and easy accessibility for further processing.
 * Cloud Run
-<p>Cloud Run is utilized by CleanSort APP for deploying and managing the application's containerized workloads. It enables the app to scale seamlessly based on the incoming traffic and provides a serverless environment for running the application, reducing operational complexities.
+<br>Cloud Run is utilized by CleanSort APP for deploying and managing the application's containerized workloads. It enables the app to scale seamlessly based on the incoming traffic and provides a serverless environment for running the application, reducing operational complexities.
 * Cloud Build
-<p>CleanSort APP uses Cloud Build for automating the build and deployment processes. It streamlines the application's continuous integration and delivery (CI/CD) pipeline by automatically building, testing, and deploying the updated versions of the app. Cloud Build ensures efficiency and consistency throughout the development and deployment lifecycle.
+<br>CleanSort APP uses Cloud Build for automating the build and deployment processes. It streamlines the application's continuous integration and delivery (CI/CD) pipeline by automatically building, testing, and deploying the updated versions of the app. Cloud Build ensures efficiency and consistency throughout the development and deployment lifecycle.
 * Cloud SQL
-<p>CleanSort APP integrates with Cloud SQL for managing its relational database.
+<br>CleanSort APP integrates with Cloud SQL for managing its relational database.
