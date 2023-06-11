@@ -9,7 +9,7 @@
 * Johan Juanda (A136DKX4499) - Mobile Development
 
 ## About
-CleanSort APP is Smart Waste Detection and Classification App with Disposal Guidelines
+CleanSort APP is a smart waste detection and classification application that utilizes the power of cloud computing to enhance waste management processes. The app is designed to identify and categorize different types of waste materials accurately. It provides users with disposal guidelines based on the specific waste category, promoting responsible waste disposal practices.
 
 ## GCP Services Used in Cloud Computing
 * Cloud Storage
